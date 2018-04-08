@@ -79,24 +79,16 @@
 
     <div class="content">
         <div class="title m-b-md">
-            About Us
-        </div>
-
-        <div class="dark">
-            <figure>
-                <img class="about" src="images/Avatar.jpg" alt="xian">
-                <figcaption>Xian wants you to spend time doing what you love.</figcaption>
-            </figure>
-
-            <p style="text-align:left; padding-left:20%; padding-right:20%; padding-top:10px">
-                Apply for jobs with the swipe of a finger!
-            </p>
+            {{ $companyName}} is hiring for position of {{$jobTitle}};
         </div>
 
         <div class="links">
-            <a href="mailto:admin@swiperighttoapply.com?subject=swipe right to apply, help">Email</a>
-            <a href="https://twitter.com/RightToApply">Twitter</a>
-            <a href="www.facebook.com">Facebook</a>
+            <a href="https://laravel.com/docs">Documentation</a>
+            <a href="https://laracasts.com">Laracasts</a>
+            <a href="/">Home</a>
+            <a href="https://laravel-news.com">News</a>
+            <a href="https://forge.laravel.com">Forge</a>
+            <a href="https://github.com/laravel/laravel">GitHub</a>
         </div>
     </div>
 </div>

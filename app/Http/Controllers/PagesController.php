@@ -16,6 +16,6 @@ class PagesController extends Controller
     }
 
     public function about(){
-        return view('pages/contactus');
+        return view('pages/aboutus');
     }
 }
